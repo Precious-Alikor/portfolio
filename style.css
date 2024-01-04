@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Millik Regular;
+  src: url(./fonts/MillikRegular.otf);
+}
+@font-face {
+  font-family: SFPRO Display Regular;
+  src: url(./fonts/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+  font-family: SFPRO Display Bold;
+  src: url(./fonts/SFPRODISPLAYBOLD.OTF);
+}
+@font-face {
+  font-family: Georgia;
+  src: url(./fonts/georgia\ bold.ttf);
+}
+
+h5 {
+  font-family: Millik Regular;
+}
+p {
+  font-family: Georgia;
+}
+.name {
+  font-family: Millik Regular;
+  /* line-height: 50px; */
+}
+.project-img img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.project-img:hover img {
+  transform: scale(1.1);
+}
+.skills h6{
+
+}
